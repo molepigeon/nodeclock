@@ -1,4 +1,4 @@
-FROM registry.ng.bluemix.net/ibmnode:latest
+FROM registry.eu-gb.bluemix.net/ibmnode:latest
 COPY . /src
 RUN cd /src; npm install
 EXPOSE 80
